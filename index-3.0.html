@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kenya Leverett Portfolio</title>
+
+<style>
+    body {
+        margin:0px;
+    }
+    p {
+        color:#262626;
+        margin:0px;
+        padding:0px;
+    }
+
+    a {
+        color:blue;
+    }
+    a:hover {
+        text-decoration:none;
+        font-weight:bold;
+    }
+
+    #container {
+        background-image: url("images/white_wall_@2X.png");
+        background-color:#ff0000;
+        width:100%;
+        height:100%;
+        padding-top:10px;
+        padding-bottom:30px;
+        display:flex;
+        justify-content: center;
+        margin:0px;
+    }
+
+    #main {
+        padding: 0px 35px 20px 35px;
+        Border: 5px #8c8c8c groove;
+        width:1000px;
+        align:center;
+        background-color:#F0F8FF;
+        overflow: hidden;
+    }
+
+    #Header {
+        position: absolute;
+        width: 750px;
+        text-align:center;
+    }
+    #header li {
+    float:left;
+    margin: 0px 20px 0px 20px;
+    list-style:none;
+    }
+
+    #header li:hover {
+        border-top:3px solid #ffe711;
+    }
+
+   #leftbar {
+        height:387px;
+        width:215px;
+        float:left;
+        margin: 6px 25px 11px 0px;
+        //background-color:#add8ff;
+        resize: horizontal;
+        overflow: auto;
+   }
+
+   #leftbarext {
+        display:none;
+        float:left;
+   }
+    #mainbar {
+        //height:875px;
+        width:750px;
+        float:left;
+        margin: 3px 0 0 0;
+        //background-color:#add8ff;
+        //resize: horizontal;
+        //overflow: scroll;
+    }
+
+    .contentcover img {
+        margin: 0px 15px;
+        border-radius:30px;
+        text-align: center;
+        background-color:blue;
+        resize:both;
+        overflow: auto;
+        opacity:0.7;
+    }
+    .contentcover img:hover {
+        opacity: 1;
+        transform: scale(1.4);
+        transition: transform .25s ease;
+    }
+    .contentcover {
+        display:flex;
+        justify-content: center;
+        margin:3px 3px 8px 3px;
+        width: 750px;
+        border: 2px black dotted;
+        background-clip: padding-box;
+        background-image: url("images/quill.jpg");
+        background-blend-mode: darken;
+        background-position:center;
+        background-size: 100%;
+        background-color:#cdf2fa;
+    }
+
+    .contentcover2 {
+        display:flex;
+        justify-content: center;
+        margin:3px;
+        width: 750px;
+        background-image: url("images/Blue-Matrix.gif");
+        background-blend-mode: overlay;
+        background-position:center;
+        background-size: 100%;
+        background-color:green;
+    }
+
+   .contentcover2 object {
+        background-color: black;
+        background-image: url("images/github-logo.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position:center;
+        background-position: top;
+        opacity:0.7;
+        resize:both;
+        overflow: auto;
+        height:150px;
+        width:150px;
+        margin:10px 15px;
+        color:#cdf2fa;
+        text-shadow: -1px 0 green,0 1px green,1px 0 green,0 -1px green;
+        font-weight:bold;
+        text-align:center;
+        line-height:150px;
+   }
+
+   object:hover {
+        opacity:1;
+        background-position:center;
+        background-size: 100%;
+        background-position: top;
+   }
+   #reaction:hover {
+        background-image: url("images/Reaction-Game.png");
+   }
+   #portfolio {
+        text:center;
+        line-height:20px;
+   }
+   #portfolio:hover {
+        background-image: url("images/Reaction-Game.png");
+   }
+   #sql:hover {
+        background-image: url("images/Reaction-Game.png");
+   }
+   #unix:hover {
+        background-image: url("images/Reaction-Game.png");
+   }
+
+
+</style>
+</head>
+<body>
+<div id="container">
+
+    <div id="main">
+        <img src="images/wordcloud4.jpg" width="100%">
+        <div id="header">
+            <hr>
+            <ul>
+                <li><a href="http://79.170.40.181/kenyaleverett.com/">Welcome Page</a></li>
+                <li><a href="http://79.170.40.181/kenyaleverett.com/about/">About Me</a></li>
+                <li><a href="http://79.170.40.181/kenyaleverett.com/contact/">Contact</a></li>
+
+            </ul>
+            <br><hr>
+            </ul><p>A bit about me: I’m committed to the idea of being my best self
+            and constantly upgrading my knowledge and skills via new experiences and challenges.
+            This site (which I made from scratch using primarily HTML, CSS, & javascript)
+            will host a collection of some of those interests.</p><br>
+        </div>
+
+
+        <object id="leftbar">
+            <div>Resume: </div>
+            <embed src="images/Online Resume.pdf" width="770px" height="350px" type='application/pdf'>
+        </object>
+        <div id="leftbarext">
+            <p>Please scroll down</p>
+            <img src="images/down-arrow.gif" width="125" />
+        </div>
+
+        <div id="mainbar"</div>
+            <p>Writing Style: </p>
+            <div class="contentcover">
+                <img id="A" src="images/ace-interview.png" alt="ACE the interview" width="150px" height="150px"/>
+                <img src="images/job hunting.png" alt="Job Hunting 101" width="150px" height="150px"/>
+                <img src="images/Prepare.png" alt="Phone Interview: Prepare" width="150px" height="150px"/>
+                <img src="images/Resume.png" alt="Resume Quilt" width="150px" height="150px"/>
+               <!-- <div class="content1">Article preview</div>
+                <div class="content1">Job Hunting 101</div>
+                <div class="content1">Phone Interview advise</div>
+                <div class="content1">Ace the interview</div>-->
+            </div>
+
+            <br>Technical projects:
+            <div class="contentcover2">
+                <object id="reaction">Reaction Game</object>
+                <object id="portfolio"><br><br>Custom <br>website<br>/portfolio</object>
+                <object id="sql">SQL Sample</object>
+                <object id="unix">Unix Sample</object>
+            </div>
+        </div>
+    <!--<embed src="Kenya-Resume.pdf" float="right"  width="750px" height="200px" type='application/pdf'>-->
+    </div>
+
+
+</div>
+<script>
+var w;
+var w = (document.getElementById("leftbar").width);
+//alert(w);
+
+if (w > "215px") {
+    document.getElementById("leftbarext").style.display="block";
+}
+</script>
+</body>
+</html>
