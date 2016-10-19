@@ -60,11 +60,9 @@
         padding:0px;
     }
     #headerMenu {
-    //border-top:1px black solid;
     padding:10px 0;
     overflow:hidden;
     border-bottom:1px black solid;
-    //background-color: #7ba1ac;
     }
     ul {
     padding:0px;
@@ -85,8 +83,6 @@
     }
     #accordian {
     width:999px;
-    //height:300px;
-    //margin-left:200px;
     }
 
    #leftbar {
@@ -95,25 +91,18 @@
         max-width:785px;
         float:left;
         margin: 6px 25px 11px 0px;
-        //background-color:#add8ff;
         resize: horizontal;
         overflow: auto;
    }
    #leftbarext {
         display: none;
-        //float:right;
-        //margin-right:auto;
         margin:auto;
    }
 
     #mainbar {
-        //height:875px;
         width:750px;
         float:left;
         margin: 3px 0 0 0;
-        //background-color:#add8ff;
-        //resize: horizontal;
-        //overflow: scroll;
     }
 
     .contentcover img {
@@ -135,7 +124,6 @@
         justify-content: center;
         margin:3px 3px 14px 3px;
         width: 750px;
-        //border: 2px black dotted;
         background-clip: padding-box;
         background-image: url("images/quill.jpg");
         background-blend-mode: darken;
@@ -193,10 +181,6 @@
    #unix:hover {
         background-image: url("images/Reaction-Game.png");
    }
-    .right {
-    margin-left:100px;
-    //float:right;
-    }
 </style>
 </head>
 <body>
