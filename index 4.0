@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-type" content="text/html; charset=utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kenya Leverett Portfolio</title>
+<style>
+    body {
+        margin:0px;
+    }
+    p {
+        color:#262626;
+        font-family: "Times New Roman", Georgia, Serif;
+    }
+    a:link {
+        color:blue;
+        }
+    a:visited{
+        color:purple;
+    }
+    a:hover {
+        font-weight:bold;
+    }
+    a:active {
+        position:relative;
+        top:2px;
+        color:red;
+    }
+    #container {
+        background-image: url("images/white_wall_@2X.png");
+        background-color:#ff0000;
+        margin:0px;
+        width:100%;
+        height:100%;
+        padding-top:10px;
+        padding-bottom:30px;
+        justify-content: center;
+        display:flex;
+    }
+
+    #main {
+        padding: 0px 35px 20px 35px;
+        Border: 5px #8c8c8c groove;
+        width:1000px;
+        background-color:#F0F8FF;
+        overflow: hidden;
+    }
+
+    #Header {
+        position: absolute;
+        width: 750px;
+        padding:0px;
+    }
+    #headerMenu {
+    border-top:1px black solid;
+    padding:10px 0;
+    overflow:hidden;
+    border-bottom:1px black solid;
+    }
+    ul {
+    padding:0px;
+    margin:0px;
+    }
+    #header li {
+    float:left;
+    font-size:18px;
+    margin:0px 135px 0px 0px;
+    list-style:none;
+    }
+    #header form {
+    float:right;
+    }
+
+   #leftbar {
+        height:387px;
+        width:215px;
+        max-width:785px;
+        float:left;
+        margin: 6px 25px 11px 0px;
+        //background-color:#add8ff;
+        resize: horizontal;
+        overflow: auto;
+   }
+   #leftbarext {
+        display: none;
+        float:left;
+   }
+
+    #mainbar {
+        //height:875px;
+        width:750px;
+        float:left;
+        margin: 3px 0 0 0;
+        //background-color:#add8ff;
+        //resize: horizontal;
+        //overflow: scroll;
+    }
+
+    .contentcover img {
+        margin: 0px 15px;
+        border-radius:30px;
+        text-align: center;
+        background-color:blue;
+        resize:both;
+        overflow: auto;
+        opacity:0.7;
+    }
+    .contentcover img:hover {
+        opacity: 1;
+        transform: scale(1.4);
+        transition: transform .25s ease;
+    }
+    .contentcover {
+        display:flex;
+        justify-content: center;
+        margin:3px 3px 14px 3px;
+        width: 750px;
+        border: 2px black dotted;
+        background-clip: padding-box;
+        background-image: url("images/quill.jpg");
+        background-blend-mode: darken;
+        background-position:center;
+        background-size: 100%;
+        background-color:#cdf2fa;
+    }
+
+    .contentcover2 {
+        display:flex;
+        justify-content: center;
+        margin:3px;
+        width: 750px;
+        background-image: url("images/Blue-Matrix.gif");
+        background-blend-mode: overlay;
+        background-position:center;
+        background-size: 100%;
+        background-color:green;
+    }
+
+   .contentcover2 a {
+        background-color: black;
+        background-image: url("images/github-logo.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position:center;
+        background-position: top;
+        opacity:0.7;
+        resize:both;
+        overflow: auto;
+        height:150px;
+        width:150px;
+        margin:10px 15px;
+        color:#cdf2fa;
+        text-shadow: -1px 0 green,0 1px green,1px 0 green,0 -1px green;
+        font-weight:bold;
+        text-align:center;
+        line-height:150px;
+   }
+   a:hover {
+        opacity:1;
+        background-position:center;
+        background-size: 100%;
+        background-position: top;
+   }
+   #reaction:hover {
+        background-image: url("images/Reaction-Game.png");
+   }
+   #portfolio:hover {
+        background-image: url("images/Reaction-Game.png");
+   }
+   #sql:hover {
+        background-image: url("images/Reaction-Game.png");
+   }
+   #unix:hover {
+        background-image: url("images/Reaction-Game.png");
+   }
+
+
+</style>
+</head>
+<body>
+<div id="container">
+
+    <div id="main">
+        <img src="images/wordcloud4.jpg" width="100%">
+        <div id="header">
+            <div id="headerMenu">
+                <ul>
+                    <li><a href="http://79.170.40.181/kenyaleverett.com/">Welcome Page</a></li>
+                    <li><a href="http://79.170.40.181/kenyaleverett.com/about/">About Me</a></li>
+                    <li><a href="http://79.170.40.181/kenyaleverett.com/contact/">Contact </a></li>
+                </ul>
+                <form action="search-pages.php" method="get">
+                        <input type="text" name="searchfield" placeholder="Type here..." /><input type="submit" name="searchbox" />
+                </form>
+            </div>
+            <p>A bit about me: I’m committed to the idea of being my best self
+            and constantly upgrading my knowledge and skills via new experiences and challenges.
+            This site (which I made from scratch using primarily HTML, CSS, & javascript)
+            will host a collection of some of those interests.</p><br>
+        </div>
+
+
+        <object id="leftbar">
+            <div><b>Resume:</b> </div>
+            <embed src="images/Online Resume.pdf" width="770px" height="350px" type='application/pdf'>
+        </object>
+        <!--<div id="leftbarext">
+            <p>Please scroll down</p>
+            <img src="images/down-arrow.gif" width="125" />
+        </div>-->
+
+        <div id="mainbar">
+            <a href="https://www.linkedin.com/today/author/kenyaleverett" target="_blank">Writing Samples: </a>
+            <div class="contentcover">
+                <img id="b" src="images/job hunting.png" alt="Job Hunting 101" width="150px" height="150px"/>
+                <img id="c" src="images/Prepare.png" alt="Phone Interview: Prepare" width="150px" height="150px"/>
+                <img id="a" src="images/ace-interview.png" alt="ACE the interview" width="150px" height="150px"/>
+                <img id="d" src="images/Resume.png" alt="Resume Quilt" width="150px" height="150px"/>
+            </div>
+
+            <a href="https://github.com/Kenya-Leverett" target="_blank">Technical projects:</a>
+            <div class="contentcover2">
+                <a id="reaction" href="http://79.170.40.181/kenyaleverett.com/projects/speedchallenge/" target="_blank">Reaction Game</a>
+                <a id="portfolio" href="https://github.com/Kenya-Leverett/Portfolio" target="_blank">Portfolio Code</a>
+                <a id="sql" href="https://github.com/Kenya-Leverett" target="_blank">SQL Sample</a>
+                <a id="unix" href="https://github.com/Kenya-Leverett" target="_blank">Unix Sample</a>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<script>
+document.getElementById("a").onclick=function(){
+window.open("https://www.linkedin.com/pulse/everything-you-need-know-ace-interview-kenya-leverett");
+}
+document.getElementById("b").onclick=function(){
+window.open("https://www.linkedin.com/pulse/job-hunting-101-kenya-leverett");
+}
+document.getElementById("c").onclick=function(){
+window.open("https://www.linkedin.com/pulse/phone-interview-advice-one-word-prepare-kenya-leverett");
+}
+document.getElementById("d").onclick=function(){
+window.open("https://www.linkedin.com/pulse/does-your-resume-look-like-old-quilt-kenya-leverett");
+}
+
+
+
+/*
+document.getElementById("leftbar").ondrag= function() {
+    document.getElementById("leftbarext").style.display= "block"
+}
+*/
+</script>
+</body>
+</html>
